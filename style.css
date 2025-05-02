@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+}
+
+.container {
+  display: inline-block;
+}
+
+.stopwatch {
+  font-size: 80px;
+  background-color: #e6e9ff;
+  border: 5px solid #333;
+  border-radius: 30px;
+  padding: 20px 40px;
+  display: inline-block;
+  position: relative;
+}
+
+#milliseconds {
+  font-size: 30px;
+  vertical-align: top;
+  margin-left: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 30px;
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin: 0 20px;
+  cursor: pointer;
+  border: 5px solid #333;
+}
+
+#startBtn {
+  background: linear-gradient(to bottom, #a0eaff, #0000ff);
+  color: black;
+}
+
+#clearBtn {
+  background: red;
+  color: black;
+}
